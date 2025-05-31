@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router';
 import axiosInstance from '../service/axiosInstance';
 import { useSelector } from 'react-redux';
 import {  message } from 'antd';
+import toast from 'react-hot-toast';
 
 const ProductCard = ({product,category}) => {
 
@@ -11,7 +12,11 @@ const ProductCard = ({product,category}) => {
   const {id:userId}=useSelector(state=>state.user.user)
   console.log(userId,"-userID")
   const handleCart= async (newproduct)=>{
-message.success('Product added to cart');
+    if(!userId){
+      toast.error("please login with your mail")
+      return;
+    }
+toast.success('Product added to cart');
 const userRes = await axiosInstance.get(`/users/${userId}`);
   const existingCart = userRes.data.cart || [];
 
@@ -71,8 +76,8 @@ const userRes = await axiosInstance.get(`/users/${userId}`);
         {/* Price and Button */}
         <div className="flex justify-between items-center mb-[15px] max-sm:flex-col max-sm:items-start max-sm:gap-[15px]">
           <div className="flex flex-col max-sm:mb-[5px]">
-            <span className="text-sm line-through text-zinc-400 mb-[2px]">{product?.originalPrice}</span>
-            <span className="text-[22px] font-bold text-zinc-900">{product?.offerPrice}</span>
+            <span className="text-sm line-through text-zinc-400 mb-[2px]">$ {product?.originalPrice}</span>
+            <span className="text-[22px] font-bold text-zinc-900">$ {product?.offerPrice}</span>
           </div>
           
           <button onClick={()=>handleCart(product)} className="bg-gradient-to-br from-zinc-900 to-zinc-800 text-white border-none rounded-xl px-[18px] py-[10px] text-sm font-semibold cursor-pointer flex items-center gap-2 transition-all duration-300 ease-out shadow-[0_5px_15px_rgba(0,0,0,0.1)] relative overflow-hidden hover:bg-gradient-to-br hover:from-zinc-800 hover:to-zinc-700 hover:-translate-y-[3px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.15)] group/btn max-sm:w-full max-sm:justify-center before:content-[''] before:absolute before:top-0 before:left-[-100%] before:w-full before:h-full before:bg-gradient-to-r before:from-transparent before:via-white/10 before:to-transparent before:transition-all before:duration-[600ms] before:ease-out hover:before:left-full">

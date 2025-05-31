@@ -12,7 +12,7 @@ const MyOrdersContainers = () => {
         setOrders(data.orders)
     } )()
         
-    })
+    },[id])
   return (
     <div>
       <OrderListing orders={orders}/>

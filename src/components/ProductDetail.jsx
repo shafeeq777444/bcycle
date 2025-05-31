@@ -165,7 +165,7 @@ toast.success("Product added to cart!")
                     </div>
                   </div>
                   <div className="bg-gradient-to-r from-red-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-md">
-                    Save ₹50
+                    Save $50
                   </div>
                 </div>
  

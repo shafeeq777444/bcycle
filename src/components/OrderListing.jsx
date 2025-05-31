@@ -8,7 +8,7 @@ import {
   Eye,
   ChevronDown,
   ChevronUp,
-  IndianRupee
+  DollarSign
 } from 'lucide-react';
 
 const OrderListing = ({orders}) => {
@@ -85,7 +85,7 @@ const OrderListing = ({orders}) => {
                 </div>
                 <div className="text-right">
                   <div className="flex items-center gap-1 text-xl font-bold text-gray-900 mb-1">
-                    <IndianRupee className="w-5 h-5" />
+                    <DollarSign className="w-5 h-5" />
                     <span>{order.total.toFixed(2)}</span>
                   </div>
                   <button
@@ -172,11 +172,11 @@ const OrderListing = ({orders}) => {
                             </div>
                             <div className="text-right">
                               <div className="flex items-center gap-1 text-lg font-bold text-gray-900 mb-1">
-                                <IndianRupee className="w-4 h-4" />
+                                <DollarSign className="w-4 h-4" />
                                 <span>{product.offerPrice}</span>
                               </div>
                               <div className="flex items-center gap-1 text-sm text-gray-500 line-through">
-                                <IndianRupee className="w-3 h-3" />
+                                <DollarSign className="w-3 h-3" />
                                 <span>{product.originalPrice}</span>
                               </div>
                               <div className="text-sm text-gray-600 mt-1">

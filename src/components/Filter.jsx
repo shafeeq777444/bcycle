@@ -54,7 +54,7 @@ const ProductFilter = ({ items }) => {
         {filteredItems.map((item, idx) => (
           <li key={idx} className="border p-2 rounded">
             <div className="font-semibold">{item.title}</div>
-            <div className="text-sm text-gray-600">₹{item.price}</div>
+            <div className="text-sm text-gray-600">${item.price}</div>
           </li>
         ))}
       </ul> */}

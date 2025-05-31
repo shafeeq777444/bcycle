@@ -124,7 +124,7 @@ const SearchModal = () => {
                                                 <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs">
                                                     {product.category}
                                                 </span>
-                                                <span className="font-bold text-green-600">₹{product.offerPrice}</span>
+                                                <span className="font-bold text-green-600">${product.offerPrice}</span>
                                             </div>
                                         </div>
                                     ))}

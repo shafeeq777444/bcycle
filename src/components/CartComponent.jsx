@@ -3,10 +3,13 @@ import { useNavigate } from "react-router";
 import axiosInstance from "../service/axiosInstance";
 import { useSelector } from "react-redux";
 import PaymentModal from "./PaymentModal";
-import toast from "react-hot-toast";
+// import toast from "react-hot-toast";
+import Razorpay from "../features/razorpay/Razorpay";
+import { useState } from "react";
 
 const CartPage = ({ cartItems = [], setCartItems }) => {
     const navigate = useNavigate();
+    const [payment,setPayment]=useState(false)
     const { id: userId } = useSelector((state) => state.user.user);
     const updateQuantity = (id, newQuantity) => {
         if (newQuantity <= 0) {
@@ -43,10 +46,14 @@ const CartPage = ({ cartItems = [], setCartItems }) => {
         console.log(updated, "--updt");
         await axiosInstance.patch(`/users/${userId}`, updated);
         navigate("/myorders");
-        toast.success("Order Confirmed")
+        setPayment(true)
+        // toast.success("Order Confirmed")
+        
     };
+   console.log(payment,'payments')
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+           {payment && <Razorpay amount={total} setPayment={setPayment}/>}
             <div className="max-w-7xl mx-auto px-4 py-8">
                 {/* Header */}
                 <div className="mb-8">
@@ -243,6 +250,7 @@ const CartPage = ({ cartItems = [], setCartItems }) => {
                     </div>
                 )}
             </div>
+           
         </div>
     );
 };
