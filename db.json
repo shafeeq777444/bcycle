@@ -1,0 +1,935 @@
+{
+  "bikes": [
+    {
+      "id": "lux-001",
+      "category": "Luxury",
+      "name": "House of Solid Gold 24K Gold Extreme Mountain Bike",
+      "description": "An opulent mountain bike plated entirely in 24-karat gold, adorned with 600 black diamonds and 500 golden sapphires.",
+      "features": [
+        "Gold-plated",
+        "Diamond-studded",
+        "Handcrafted"
+      ],
+      "originalPrice": 385000,
+      "offerPrice": 385000,
+      "reviews": 12,
+      "rating": 5,
+      "images": [
+        "https://i.pinimg.com/736x/79/87/36/798736739f81b6eb882b0461e2a96e28.jpg",
+        "https://i.pinimg.com/736x/cd/96/46/cd964679ed832f66cf9ab80eccd70495.jpg",
+        "https://i.pinimg.com/736x/85/a1/72/85a172a87d328bbc7b2fde38720d6a52.jpg"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Alexander Sterling",
+          "rating": 4,
+          "date": "15 Nov 2024",
+          "comment": "Absolutely stunning! The craftsmanship is beyond exceptional. Every diamond is perfectly placed and the gold finish is flawless. Worth every penny for this masterpiece.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Victoria Goldsmith",
+          "rating": 5,
+          "date": "08 Nov 2024",
+          "comment": "This bike is a work of art! The attention to detail is incredible. Riding it feels like floating on clouds. The golden sapphires catch the light beautifully.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 3,
+          "name": "Marcus Diamond",
+          "rating": 3,
+          "date": "02 Nov 2024",
+          "comment": "Unparalleled luxury and performance. The bike handles amazingly well despite its opulent design. A true collector's dream come true.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-002",
+      "category": "Luxury",
+      "name": "luxury Trek Black",
+      "description": "A unique art piece by Damien Hirst, featuring real butterfly wings on the frame, ridden by Lance Armstrong in the 2009 Tour de France.",
+      "features": [
+        "Artistic design",
+        "Limited edition",
+        "Tour de France history"
+      ],
+      "originalPrice": 192500,
+      "offerPrice": 192500,
+      "reviews": 8,
+      "rating": 5,
+      "images": [
+        "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=2922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1496147539180-13929f8aa03a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1530143584546-02191bc84eb5?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Art Collector James",
+          "rating": 4,
+          "date": "20 Oct 2024",
+          "comment": "Owning a piece of cycling and art history is incredible. The butterfly wings are preserved beautifully and the connection to Lance Armstrong makes it even more special.",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Isabella Hirst",
+          "rating": 3,
+          "date": "14 Oct 2024",
+          "comment": "Damien Hirst's artistic vision combined with Trek's engineering excellence. This bike is museum-quality art that you can actually ride!",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-003",
+      "category": "Luxury",
+      "name": "Aurumania Crystal Edition Gold Bike",
+      "description": "A 24-karat gold-plated bike embellished with over 600 Swarovski crystals, exuding luxury and elegance.",
+      "features": [
+        "Swarovski crystals",
+        "Gold-plated",
+        "Exclusive design"
+      ],
+      "originalPrice": 39625,
+      "offerPrice": 39625,
+      "reviews": 15,
+      "rating": 4,
+      "images": [
+        "https://i.pinimg.com/736x/27/76/c1/2776c1bb4f7c69bfd53b3ac2ea704280.jpg",
+        "https://images.unsplash.com/photo-1593091861575-38a632b4f32a?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/2c/df/33/2cdf33e6e2bb12fb14aace58bdf35eb8.jpg"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Crystal Williams",
+          "rating": 3,
+          "date": "25 Oct 2024",
+          "comment": "The Swarovski crystals are absolutely dazzling! The bike sparkles beautifully in sunlight. Great quality but quite heavy due to all the embellishments.",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Robert Luxury",
+          "rating": 5,
+          "date": "18 Oct 2024",
+          "comment": "Stunning visual appeal and excellent craftsmanship. The gold plating is flawless. Perfect for special occasions and photo shoots.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 3,
+          "name": "Elena Sparkle",
+          "rating": 4,
+          "date": "12 Oct 2024",
+          "comment": "Love the elegance and luxury feel. Each crystal is perfectly placed. It's more of a statement piece than a daily rider, but absolutely gorgeous!",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-004",
+      "category": "Luxury",
+      "name": "Aston Martin One-77 Cycle",
+      "description": "A technologically advanced bicycle with a carbon-fiber frame, electronic display, and integrated LED lights.",
+      "features": [
+        "Carbon-fiber frame",
+        "LED lights",
+        "Electronic display"
+      ],
+      "originalPrice": 15015,
+      "offerPrice": 15015,
+      "reviews": 20,
+      "rating": 5,
+      "images": [
+        "https://i.pinimg.com/736x/96/7b/34/967b3418024eb64b3822f1880a425ef2.jpg",
+        "https://i.pinimg.com/736x/91/32/d9/9132d96cccb467109d939d9befb089ad.jpg",
+        "https://i.pinimg.com/736x/60/b7/cd/60b7cdf1d0448f7c3b119575636f93bd.jpg"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Tech Enthusiast Mike",
+          "rating": 4,
+          "date": "30 Oct 2024",
+          "comment": "The electronic display is incredibly advanced! Real-time performance metrics, GPS navigation, and the LED lighting system is phenomenal. True Aston Martin quality.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Carbon Fiber Carl",
+          "rating": 3,
+          "date": "22 Oct 2024",
+          "comment": "The carbon fiber frame is incredibly lightweight yet strong. The integration of technology is seamless. Feels like riding a spaceship!",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 3,
+          "name": "Luxury Rider Sarah",
+          "rating": 5,
+          "date": "16 Oct 2024",
+          "comment": "Aston Martin's attention to detail is evident in every component. The LED lights provide excellent visibility and the electronic features are intuitive to use.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-005",
+      "category": "Luxury",
+      "name": "Litespeed Blade",
+      "description": "An aero bike combining titanium alloy and carbon fiber for unmatched speed and ride quality.",
+      "features": [
+        "Titanium alloy",
+        "Carbon fiber",
+        "Aerodynamic design"
+      ],
+      "originalPrice": 15750,
+      "offerPrice": 15750,
+      "reviews": 18,
+      "rating": 4,
+      "images": [
+        "https://i.pinimg.com/736x/24/bb/aa/24bbaa265ade500a9211b248031c8328.jpg",
+        "https://images.unsplash.com/photo-1593764592116-bfb2a97c642a?q=80&w=2505&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/99/e2/cb/99e2cb63e870e9b901f46f7c1f86663c.jpg"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Speed Demon Alex",
+          "rating": 3,
+          "date": "28 Oct 2024",
+          "comment": "The aerodynamic design really makes a difference! Titanium construction provides excellent durability while keeping weight minimal. Great for competitive cycling.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Titanium Tom",
+          "rating": 5,
+          "date": "21 Oct 2024",
+          "comment": "The combination of titanium and carbon fiber is brilliant. Smooth ride quality and impressive speed capabilities. Worth the investment for serious cyclists.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-006",
+      "category": "Luxury",
+      "name": "Montante Luxury Gold Collection",
+      "description": "A 24-karat gold-plated bike adorned with 11,000 Swarovski crystals and python skin accents.",
+      "features": [
+        "Gold-plated",
+        "Swarovski crystals",
+        "Python skin accents"
+      ],
+      "originalPrice": 17710,
+      "offerPrice": 17710,
+      "reviews": 10,
+      "rating": 5,
+      "images": [
+        "https://i.pinimg.com/736x/c1/37/69/c137695bacf5c5a22e3d296f5b3d2102.jpg",
+        "https://images.unsplash.com/photo-1593764592116-bfb2a97c642a?q=80&w=2505&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://d3dbysmy5y25ht.cloudfront.net/product/snow-leopard-29T/lg/fork.jpg"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Luxury Collector Emma",
+          "rating": 4,
+          "date": "05 Nov 2024",
+          "comment": "11,000 Swarovski crystals create an absolutely mesmerizing effect! The python skin accents add a unique touch of exotic luxury. Truly one-of-a-kind.",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Python Paul",
+          "rating": 3,
+          "date": "29 Oct 2024",
+          "comment": "The python skin detailing is exquisite and ethically sourced. Combined with the gold plating and crystals, this bike is pure luxury on wheels.",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-007",
+      "category": "Luxury",
+      "name": "Chrome Hearts X Cervélo",
+      "description": "A collaboration between Cervélo and Chrome Hearts, featuring motorcycle-themed artwork and a leather seat.",
+      "features": [
+        "Motorcycle-themed artwork",
+        "Leather seat",
+        "Limited edition"
+      ],
+      "originalPrice": 23100,
+      "offerPrice": 23100,
+      "reviews": 14,
+      "rating": 4,
+      "images": [
+        "https://i.pinimg.com/736x/92/27/28/922728e5fa0e028db747f2207c63e2b5.jpg",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Biker Artist Jake",
+          "rating": 5,
+          "date": "12 Nov 2024",
+          "comment": "The motorcycle-themed artwork is incredibly detailed and edgy. Chrome Hearts' signature style perfectly complements Cervélo's engineering. The leather seat is super comfortable.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Chrome Collector Lisa",
+          "rating": 3,
+          "date": "06 Nov 2024",
+          "comment": "Limited edition collaboration that perfectly blends two iconic brands. The artwork is stunning and the build quality is exceptional. A true collector's piece.",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "lux-008",
+      "category": "Luxury",
+      "name": "Trek Madone 7-Diamond",
+      "description": "A unique road bike decorated with 100 white diamonds and seven manmade 1-karat diamonds on its head badge.",
+      "features": [
+        "Diamond-studded",
+        "Unique design",
+        "Collector's item"
+      ],
+      "originalPrice": 28875,
+      "offerPrice": 28875,
+      "reviews": 9,
+      "rating": 5,
+      "images": [
+        "https://i.pinimg.com/736x/40/d4/8b/40d48bb2ff99c4df54ba5afaa8f091ce.jpg",
+        "https://images.unsplash.com/photo-1544191696-15693072e0b5?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Diamond Dave",
+          "rating": 4,
+          "date": "18 Nov 2024",
+          "comment": "The seven 1-karat diamonds on the head badge are absolutely brilliant! Each of the 100 white diamonds sparkles perfectly. Trek's engineering meets luxury jewelry.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Collector Queen Rachel",
+          "rating": 3,
+          "date": "10 Nov 2024",
+          "comment": "This is the crown jewel of my collection! The diamond placement is artistic and the bike performs beautifully. Worth every diamond on it!",
+          "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    }
+  ],
+  "bikeAccessories": [
+    {
+      "id": "1",
+      "category": "Safety",
+      "name": "Nutcase Street MIPS Helmet",
+      "description": "A stylish helmet with MIPS technology for enhanced safety and comfort.",
+      "features": [
+        "MIPS Protection",
+        "Adjustable Fit",
+        "Ventilated Design"
+      ],
+      "originalPrice": 52.5,
+      "offerPrice": 47.25,
+      "reviews": 217,
+      "rating": 4.4,
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Safety Sam",
+          "rating": 4,
+          "date": "15 Nov 2024",
+          "comment": "MIPS technology really works! Had a fall and the helmet protected me perfectly. Comfortable fit and great ventilation during long rides.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Commuter Kate",
+          "rating": 3,
+          "date": "08 Nov 2024",
+          "comment": "Stylish design and excellent safety features. The adjustable fit system works great. Only wish it came in more color options.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "category": "Comfort",
+      "name": "Brooks B17 Leather Saddle",
+      "description": "A classic leather saddle known for its comfort and durability.",
+      "features": [
+        "Leather Material",
+        "Steel Rails",
+        "Handcrafted"
+      ],
+      "originalPrice": 138,
+      "offerPrice": 124.2,
+      "reviews": 1000,
+      "rating": 4.8,
+      "images": [
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Vintage Rider Bob",
+          "rating": 5,
+          "date": "20 Nov 2024",
+          "comment": "After 500 miles, this saddle has molded perfectly to my body. The leather quality is exceptional and it just gets more comfortable with time. Worth every penny!",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Long Distance Lucy",
+          "rating": 4,
+          "date": "12 Nov 2024",
+          "comment": "Best saddle I've ever owned! The handcrafted quality shows in every detail. No more discomfort on long rides. Brooks really knows their craft.",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 3,
+          "name": "Classic Chris",
+          "rating": 3,
+          "date": "05 Nov 2024",
+          "comment": "Traditional craftsmanship at its finest. Takes some time to break in, but once it does, it's incredibly comfortable. The steel rails are very durable.",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "category": "Storage",
+      "name": "Banjo Brothers Market Pannier",
+      "description": "A versatile pannier bag suitable for grocery runs and commuting.",
+      "features": [
+        "Water-Resistant",
+        "Reflective Strips",
+        "Large Capacity"
+      ],
+      "originalPrice": 77.3,
+      "offerPrice": 69.57,
+      "reviews": 87,
+      "rating": 4.8,
+      "images": [
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Grocery Getter Mark",
+          "rating": 3,
+          "date": "18 Nov 2024",
+          "comment": "Perfect for grocery shopping! Holds a surprising amount and the water-resistant material kept everything dry during a sudden downpour. Reflective strips are a nice safety touch.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Commuter Carol",
+          "rating": 5,
+          "date": "11 Nov 2024",
+          "comment": "Great capacity for daily commuting. Easy to attach and remove. The reflective strips provide good visibility during evening rides.",
+          "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Hydration",
+      "name": "Strauss Bicycle Bottle Holder",
+      "description": "An adjustable bottle holder that fits most bike frames.",
+      "features": [
+        "Lightweight",
+        "Durable",
+        "Easy Installation"
+      ],
+      "originalPrice": 1.7,
+      "offerPrice": 1.53,
+      "reviews": 400,
+      "rating": 4.5,
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Hydration Hero Tim",
+          "rating": 4,
+          "date": "22 Nov 2024",
+          "comment": "Simple, effective, and incredibly affordable! Holds my water bottle securely even on bumpy trails. Installation took less than 2 minutes.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Budget Biker Ben",
+          "rating": 3,
+          "date": "14 Nov 2024",
+          "comment": "Great value for money! Lightweight and durable construction. Fits perfectly on my bike frame and holds bottles of various sizes securely.",
+          "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Security",
+      "name": "Sportneer Bike Lock Chain",
+      "description": "A heavy-duty chain lock with a 5-digit combination for maximum security.",
+      "features": [
+        "High-Strength Steel",
+        "Protective Sleeve",
+        "5-Digit Combination"
+      ],
+      "originalPrice": 10.5,
+      "offerPrice": 9.45,
+      "reviews": 150,
+      "rating": 4.6,
+      "images": [
+        "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Security Steve",
+          "rating": 3,
+          "date": "25 Nov 2024",
+          "comment": "Heavy-duty protection that gives me peace of mind! The 5-digit combination is easy to remember and the protective sleeve prevents scratches on my bike frame.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "City Cyclist Sarah",
+          "rating": 5,
+          "date": "17 Nov 2024",
+          "comment": "Solid construction and reliable security. The chain is thick enough to deter thieves but still manageable to carry. Great value for the price.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "category": "Visibility",
+      "name": "Lista Ultra Bright Rear LED Light",
+      "description": "A high-intensity rear LED light with multiple modes for enhanced visibility.",
+      "features": [
+        "USB Rechargeable",
+        "7 Modes",
+        "Water-Resistant"
+      ],
+      "originalPrice": 6.5,
+      "offerPrice": 5.85,
+      "reviews": 50,
+      "rating": 4.7,
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Night Rider Nick",
+          "rating": 4,
+          "date": "28 Nov 2024",
+          "comment": "Incredibly bright! The 7 different modes are perfect for various riding conditions. USB charging is convenient and the battery lasts for weeks.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Safety Sally",
+          "rating": 3,
+          "date": "21 Nov 2024",
+          "comment": "Great visibility enhancement for evening rides. Water-resistant design works well in light rain. Easy to attach and remove from the bike.",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "category": "Comfort",
+      "name": "Ergon GA3 Grips",
+      "description": "Ergonomic grips designed to reduce hand fatigue and provide better control.",
+      "features": [
+        "Ergonomic Design",
+        "Soft Rubber",
+        "Lock-On Mechanism"
+      ],
+      "originalPrice": 42.2,
+      "offerPrice": 37.98,
+      "reviews": 984,
+      "rating": 4.8,
+      "images": [
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Grip Guru John",
+          "rating": 5,
+          "date": "25 Nov 2024",
+          "comment": "Ergonomic design and soft rubber grip provide excellent comfort and control. Lock-on mechanism keeps them securely in place.",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Rider Mike",
+          "rating": 4,
+          "date": "18 Nov 2024",
+          "comment": "Great for long rides. The soft rubber grip is comfortable and the lock-on mechanism is reliable. A must-have for serious cyclists.",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "category": "Maintenance",
+      "name": "Lezyne Steel Floor Drive Pump",
+      "description": "A durable floor pump with a steel barrel and accurate gauge.",
+      "features": [
+        "Steel Barrel",
+        "High Pressure",
+        "Accurate Gauge"
+      ],
+      "originalPrice": 38.5,
+      "offerPrice": 34.65,
+      "reviews": 200,
+      "rating": 4.7,
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop"
+      ],
+      "feedback": [
+        {
+          "id": 1,
+          "name": "Pump Pro Alex",
+          "rating": 5,
+          "date": "22 Nov 2024",
+          "comment": "Durable and accurate! The steel barrel and high pressure make it perfect for serious cyclists. Easy to use and reliable.",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+        },
+        {
+          "id": 2,
+          "name": "Rider Tom",
+          "rating": 4,
+          "date": "15 Nov 2024",
+          "comment": "Great for maintaining my bike. The accurate gauge ensures I'm getting the most out of my pump. Easy to carry and use.",
+          "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "01e7",
+      "email": "shafeeqmohamed111@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "e7e2",
+      "email": "shafeeqmohamed111@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fd5c",
+      "email": "shafee@gmail.com",
+      "password": "1234",
+      "cart": [],
+      "orders": [
+        {
+          "products": [
+            {
+              "id": "2",
+              "category": "Comfort",
+              "name": "Brooks B17 Leather Saddle",
+              "description": "A classic leather saddle known for its comfort and durability.",
+              "features": [
+                "Leather Material",
+                "Steel Rails",
+                "Handcrafted"
+              ],
+              "originalPrice": 138,
+              "offerPrice": 124.2,
+              "reviews": 1000,
+              "rating": 4.8,
+              "images": [
+                "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+              ],
+              "feedback": [
+                {
+                  "id": 1,
+                  "name": "Vintage Rider Bob",
+                  "rating": 5,
+                  "date": "20 Nov 2024",
+                  "comment": "After 500 miles, this saddle has molded perfectly to my body. The leather quality is exceptional and it just gets more comfortable with time. Worth every penny!",
+                  "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 2,
+                  "name": "Long Distance Lucy",
+                  "rating": 4,
+                  "date": "12 Nov 2024",
+                  "comment": "Best saddle I've ever owned! The handcrafted quality shows in every detail. No more discomfort on long rides. Brooks really knows their craft.",
+                  "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 3,
+                  "name": "Classic Chris",
+                  "rating": 3,
+                  "date": "05 Nov 2024",
+                  "comment": "Traditional craftsmanship at its finest. Takes some time to break in, but once it does, it's incredibly comfortable. The steel rails are very durable.",
+                  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+                }
+              ],
+              "quantity": 1
+            }
+          ],
+          "total": 134.136,
+          "id": 1748618305111,
+          "address": {
+            "address": {
+              "fullAddress": "kakkanchery,kinfra,neospace",
+              "city": "kakkanchey",
+              "state": "kerala",
+              "pincode": "673634"
+            }
+          }
+        },
+        {
+          "products": [
+            {
+              "id": "2",
+              "category": "Comfort",
+              "name": "Brooks B17 Leather Saddle",
+              "description": "A classic leather saddle known for its comfort and durability.",
+              "features": [
+                "Leather Material",
+                "Steel Rails",
+                "Handcrafted"
+              ],
+              "originalPrice": 138,
+              "offerPrice": 124.2,
+              "reviews": 1000,
+              "rating": 4.8,
+              "images": [
+                "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+              ],
+              "feedback": [
+                {
+                  "id": 1,
+                  "name": "Vintage Rider Bob",
+                  "rating": 5,
+                  "date": "20 Nov 2024",
+                  "comment": "After 500 miles, this saddle has molded perfectly to my body. The leather quality is exceptional and it just gets more comfortable with time. Worth every penny!",
+                  "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 2,
+                  "name": "Long Distance Lucy",
+                  "rating": 4,
+                  "date": "12 Nov 2024",
+                  "comment": "Best saddle I've ever owned! The handcrafted quality shows in every detail. No more discomfort on long rides. Brooks really knows their craft.",
+                  "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 3,
+                  "name": "Classic Chris",
+                  "rating": 3,
+                  "date": "05 Nov 2024",
+                  "comment": "Traditional craftsmanship at its finest. Takes some time to break in, but once it does, it's incredibly comfortable. The steel rails are very durable.",
+                  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+                }
+              ],
+              "quantity": 1
+            },
+            {
+              "id": "3",
+              "category": "Storage",
+              "name": "Banjo Brothers Market Pannier",
+              "description": "A versatile pannier bag suitable for grocery runs and commuting.",
+              "features": [
+                "Water-Resistant",
+                "Reflective Strips",
+                "Large Capacity"
+              ],
+              "originalPrice": 77.3,
+              "offerPrice": 69.57,
+              "reviews": 87,
+              "rating": 4.8,
+              "images": [
+                "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop"
+              ],
+              "feedback": [
+                {
+                  "id": 1,
+                  "name": "Grocery Getter Mark",
+                  "rating": 3,
+                  "date": "18 Nov 2024",
+                  "comment": "Perfect for grocery shopping! Holds a surprising amount and the water-resistant material kept everything dry during a sudden downpour. Reflective strips are a nice safety touch.",
+                  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 2,
+                  "name": "Commuter Carol",
+                  "rating": 5,
+                  "date": "11 Nov 2024",
+                  "comment": "Great capacity for daily commuting. Easy to attach and remove. The reflective strips provide good visibility during evening rides.",
+                  "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=40&h=40&fit=crop&crop=face"
+                }
+              ],
+              "quantity": 1
+            },
+            {
+              "id": "lux-004",
+              "category": "Luxury",
+              "name": "Aston Martin One-77 Cycle",
+              "description": "A technologically advanced bicycle with a carbon-fiber frame, electronic display, and integrated LED lights.",
+              "features": [
+                "Carbon-fiber frame",
+                "LED lights",
+                "Electronic display"
+              ],
+              "originalPrice": 15015,
+              "offerPrice": 15015,
+              "reviews": 20,
+              "rating": 5,
+              "images": [
+                "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop"
+              ],
+              "feedback": [
+                {
+                  "id": 1,
+                  "name": "Tech Enthusiast Mike",
+                  "rating": 4,
+                  "date": "30 Oct 2024",
+                  "comment": "The electronic display is incredibly advanced! Real-time performance metrics, GPS navigation, and the LED lighting system is phenomenal. True Aston Martin quality.",
+                  "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 2,
+                  "name": "Carbon Fiber Carl",
+                  "rating": 3,
+                  "date": "22 Oct 2024",
+                  "comment": "The carbon fiber frame is incredibly lightweight yet strong. The integration of technology is seamless. Feels like riding a spaceship!",
+                  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 3,
+                  "name": "Luxury Rider Sarah",
+                  "rating": 5,
+                  "date": "16 Oct 2024",
+                  "comment": "Aston Martin's attention to detail is evident in every component. The LED lights provide excellent visibility and the electronic features are intuitive to use.",
+                  "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face"
+                }
+              ],
+              "quantity": 1
+            }
+          ],
+          "total": 16425.4716,
+          "id": 1748618956624,
+          "address": {
+            "address": {
+              "fullAddress": "kakkanchery,kinfra,neospace",
+              "city": "kakkanchey",
+              "state": "kerala",
+              "pincode": "673634"
+            }
+          }
+        },
+        {
+          "products": [
+            {
+              "id": "2",
+              "category": "Comfort",
+              "name": "Brooks B17 Leather Saddle",
+              "description": "A classic leather saddle known for its comfort and durability.",
+              "features": [
+                "Leather Material",
+                "Steel Rails",
+                "Handcrafted"
+              ],
+              "originalPrice": 138,
+              "offerPrice": 124.2,
+              "reviews": 1000,
+              "rating": 4.8,
+              "images": [
+                "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
+                "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+              ],
+              "feedback": [
+                {
+                  "id": 1,
+                  "name": "Vintage Rider Bob",
+                  "rating": 5,
+                  "date": "20 Nov 2024",
+                  "comment": "After 500 miles, this saddle has molded perfectly to my body. The leather quality is exceptional and it just gets more comfortable with time. Worth every penny!",
+                  "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 2,
+                  "name": "Long Distance Lucy",
+                  "rating": 4,
+                  "date": "12 Nov 2024",
+                  "comment": "Best saddle I've ever owned! The handcrafted quality shows in every detail. No more discomfort on long rides. Brooks really knows their craft.",
+                  "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
+                },
+                {
+                  "id": 3,
+                  "name": "Classic Chris",
+                  "rating": 3,
+                  "date": "05 Nov 2024",
+                  "comment": "Traditional craftsmanship at its finest. Takes some time to break in, but once it does, it's incredibly comfortable. The steel rails are very durable.",
+                  "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face"
+                }
+              ],
+              "quantity": 1
+            }
+          ],
+          "total": 134.136,
+          "id": 1748628161687,
+          "address": {
+            "address": {
+              "fullAddress": "kakkanchery,kinfra,neospace",
+              "city": "kakkanchey",
+              "state": "kerala",
+              "pincode": "673634"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
