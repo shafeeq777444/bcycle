@@ -27,7 +27,7 @@ export default function CycleLoginPage() {
             }
         } else {
             try {
-                console.log(response.data);
+                console.log(response);
                 const user = response.data?.find((x) => x.email == email && x.password == password);
                 if (user) {
                     localStorage.setItem("isAuth", true);
