@@ -244,7 +244,7 @@ const CartPage = ({ cartItems = [], setCartItems }) => {
                             onClick={() => {
                                 navigate("/bikes");
                             }}
-                            className="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-xl transition-colors"
+                            className="bg-gray-800 hover:bg-black duration-100 ease-in text-white font-bold py-3 px-6 rounded-xl transition-colors"
                         >
                             Continue Shopping
                         </button>

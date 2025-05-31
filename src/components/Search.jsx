@@ -104,7 +104,9 @@ const SearchModal = () => {
                                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                                     {filteredProducts.map((product) => (
                                         <div
-                                            onClick={() => handleProduct(product.id)}
+                                            onClick={() => {handleProduct(product.id)
+                                                setIsModalOpen(false)}
+                                            }
                                             key={product.id}
                                             className="bg-white/60 backdrop-blur-sm border border-white/30 rounded-xl p-4 hover:bg-white/80 hover:shadow-lg transition-all duration-300 cursor-pointer group"
                                         >
