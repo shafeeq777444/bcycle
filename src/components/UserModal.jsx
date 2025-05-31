@@ -70,7 +70,7 @@ const UserDrawer = () => {
                         </div>
                         <button
                             onClick={() => {
-                                navigate("/orders");
+                                navigate("/myorders");
                                 onClose();
                             }}
                             className="flex items-center gap-2 w-full px-4 py-2 text-black-600 hover:bg-red-50 rounded-lg transition-colors duration-200"
