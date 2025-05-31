@@ -4,6 +4,7 @@ import axiosInstance from "../service/axiosInstance";
 import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
 import { setUser } from "../features/users/userSlice";
+import toast from "react-hot-toast";
 
 export default function CycleLoginPage() {
     const [showPassword, setShowPassword] = useState(false);
@@ -20,10 +21,10 @@ export default function CycleLoginPage() {
         if (!isLogin) {
             const user = response.data?.find((x) => x.email == email);
             if (user) {
-                alert("this email already registered");
+                toast.error("this email already registered");
             } else {
                 await axiosInstance.post("/users", { email, password, cart: [], orders: [] });
-                alert("user  registered successfully");
+                toast.success("user  registered successfully");
             }
         } else {
             try {
@@ -34,15 +35,17 @@ export default function CycleLoginPage() {
                     localStorage.setItem("user", JSON.stringify(user));
                     dispatch(setUser(user));
                     navigate("/");
-                   window.location.reload();
+                    // window.location.reload();
+                    toast.success("user  Login successfully");
+                 
 
                 }
                 else{
-                    alert("enter valid credentials");
+                     toast.error("enter valid credentials");
                 }
             } catch (er) {
                 console.log(er);
-                alert("enter valid credentials");
+                toast.error("enter valid credentials");
             }
         }
     };

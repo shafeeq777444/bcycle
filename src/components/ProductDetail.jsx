@@ -3,6 +3,7 @@ import { Heart, ChevronLeft, Star, ChevronDown, ChevronUp, ShoppingBag } from "l
 import axiosInstance from "../service/axiosInstance";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router";
+import toast from "react-hot-toast";
 
 const ProductDetail = ({ product }) => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
@@ -22,7 +23,7 @@ const userRes = await axiosInstance.get(`/users/${userId}`);
     cart: updatedCart
   });
   navigate('/cart')
-alert("Product added to cart!")
+toast.success("Product added to cart!")
 
 };
   const renderStars = (rating, size = "w-4 h-4") => {
