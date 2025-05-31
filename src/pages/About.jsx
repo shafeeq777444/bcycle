@@ -81,9 +81,24 @@ export default function CycleAboutPage() {
               </p>
             </div>
             <div className="relative">
-              <div className="w-full h-80 bg-black rounded-lg flex items-center justify-center">
-                <Target className="w-24 h-24 text-white" />
-              </div>
+
+             
+
+            <div className="relative w-full h-96 rounded-2xl overflow-hidden">
+                                        {/* Background image with blur */}
+                                        <img
+                                            src="https://img.freepik.com/free-photo/expirienced-young-master-is-repairing-customer-s-bicycle-workplace_613910-20759.jpg?uid=R25325760&ga=GA1.1.148018904.1747591743&semt=ais_hybrid&w=740"
+                                            alt="Background"
+                                            className="absolute inset-0 w-full h-full object-cover filter "
+                                        />
+            
+            
+                                        {/* Icon centered on top */}
+                                        <div className="relative flex items-center justify-center h-full">
+                                            {/* <Target className="w-32 h-32 text-white" /> */}
+                                        </div>
+                                    </div>
+
             </div>
           </div>
         </div>
