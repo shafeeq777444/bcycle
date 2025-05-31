@@ -9,7 +9,7 @@ const Nabarr = ({setIsMenuOpen,isMenuOpen}) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <Bike className="w-8 h-8 text-black" />
-              <h1 className="text-2xl font-bold">CycleGear Pro</h1>
+              <h1 className="text-2xl font-bold">bcycle</h1>
             </div>
             
             {/* Desktop Menu */}

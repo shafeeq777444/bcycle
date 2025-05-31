@@ -45,7 +45,7 @@ const BikeNavbar = () => {
                         className="flex items-center space-x-3 cursor-pointer"
                     >
                         <Bike className="w-8 h-8 text-black" />
-                        <h1 className="text-xl sm:text-2xl font-bold text-gray-900">CycleGear Pro</h1>
+                        <h1 className="text-xl sm:text-2xl font-bold text-gray-900">bcycle</h1>
                     </div>
 
                     {/* Desktop Navigation */}
@@ -108,11 +108,7 @@ const BikeNavbar = () => {
                             className="relative p-2 text-gray-700 hover:text-black transition-colors duration-200 rounded-md hover:bg-gray-100"
                         >
                             <ShoppingCart className="h-6 w-6" />
-                            {cartCount > 0 && (
-                                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center font-medium">
-                                    {cartCount}
-                                </span>
-                            )}
+
                         </button>
 
                         {/* Mobile Menu Button */}
@@ -185,11 +181,7 @@ const BikeNavbar = () => {
                                 >
                                     <ShoppingCart className="w-5 h-5" />
                                     <span>View Cart</span>
-                                    {cartCount > 0 && (
-                                        <span className="bg-red-500 text-white text-sm rounded-full h-6 w-6 flex items-center justify-center font-medium">
-                                            {cartCount}
-                                        </span>
-                                    )}
+
                                 </button>
                             </div>
 

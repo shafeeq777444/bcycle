@@ -95,16 +95,28 @@ export default function CycleHomePage() {
                   <span>Shop Now</span>
                   <ArrowRight className="w-5 h-5" />
                 </button>
-                <button className="border border-black text-black px-8 py-4 text-lg font-semibold rounded-lg hover:bg-black hover:text-white transition-colors">
-                  Learn More
+                <button className=" text-black px-8 py-4 text-lg font-semibold rounded-lg hover:bg-black hover:text-white transition-colors">
+                  Ride More
                 </button>
               </div>
             </div>
-            <div className="relative">
-              <div className="w-full h-96 bg-black rounded-2xl flex items-center justify-center">
-                <Bike className="w-32 h-32 text-white" />
-              </div>
-            </div>
+           <div className="relative w-full h-96 rounded-2xl overflow-hidden">
+  {/* Background image with blur */}
+  <img
+    src="https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=2922&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="Background"
+    className="absolute inset-0 w-full h-full object-cover filter "
+  />
+
+  {/* Overlay to darken background a bit (optional for better icon contrast) */}
+  <div className="absolute inset-0 bg-black/40"></div>
+
+  {/* Icon centered on top */}
+  <div className="relative flex items-center justify-center h-full">
+    <Bike className="w-32 h-32 text-white" />
+  </div>
+</div>
+
           </div>
         </div>
       </section>
@@ -137,7 +149,7 @@ export default function CycleHomePage() {
       <section className="py-20 px-6 bg-black text-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h3 className="text-4xl font-bold mb-4">Why Choose CycleGear Pro?</h3>
+            <h3 className="text-4xl font-bold mb-4">Why Choose bcycle?</h3>
             <p className="text-xl text-gray-300">The reasons thousands trust us</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -213,7 +225,7 @@ export default function CycleHomePage() {
             <div>
               <div className="flex items-center space-x-3 mb-4">
                 <Bike className="w-8 h-8" />
-                <h4 className="text-xl font-bold">CycleGear Pro</h4>
+                <h4 className="text-xl font-bold">bcycle</h4>
               </div>
               <p className="text-gray-400">Your trusted partner for all cycling needs.</p>
             </div>
@@ -246,7 +258,7 @@ export default function CycleHomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center">
-            <p className="text-gray-400">© 2025 CycleGear Pro. All rights reserved.</p>
+            <p className="text-gray-400">© 2025 bcycle. All rights reserved.</p>
           </div>
         </div>
       </footer>

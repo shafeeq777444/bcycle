@@ -37,14 +37,7 @@ export default function CycleAboutPage() {
   return (
     <div className="min-h-screen bg-white text-black">
       {/* Header */}
-      <header className="border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-4">
-          <div className="flex items-center space-x-3">
-            <Bike className="w-8 h-8 text-black" />
-            <h1 className="text-2xl font-bold">Bcycle</h1>
-          </div>
-        </div>
-      </header>
+
 
       {/* Hero Section */}
       <section className="py-20 px-6">
@@ -168,9 +161,9 @@ export default function CycleAboutPage() {
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Bike className="w-6 h-6" />
-            <span className="text-lg font-semibold">Bcycle</span>
+            <span className="text-lg font-semibold">bcycle</span>
           </div>
-          <p className="text-gray-600">© 2025 Bcycle. All rights reserved.</p>
+          <p className="text-gray-600">© 2025 bcycle. All rights reserved.</p>
         </div>
       </footer>
     </div>

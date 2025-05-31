@@ -54,22 +54,16 @@ const userRes = await axiosInstance.get(`/users/${userId}`);
            {product?.name}
         </h2>
         
-        {/* Description */}
-        {/* <div className="mb-[15px]">
-          <p className="text-sm text-zinc-600 leading-[1.5]">
-           {product?.description}
-          </p>
-        </div> */}
         
         {/* Features */}
-        <div onClick={()=>{navigate(`/${category}/productview/${product.id}`)}} className="flex flex-wrap gap-2 mb-5">
-          <span className="text-[11px] bg-zinc-100 text-zinc-500 px-[10px] py-1 rounded-xl font-medium">
+        <div onClick={()=>{navigate(`/${category}/productview/${product.id}`)}} className="flex flex-wrap gap-2 h-16 mb-5">
+          <span className="text-[11px] bg-zinc-100 text-zinc-500 h-6 px-[10px] py-1 rounded-xl font-medium">
             {product?.features[0]}
           </span>
-          <span className="text-[11px] bg-zinc-100 text-zinc-500 px-[10px] py-1 rounded-xl font-medium">
+          <span className="text-[11px] bg-zinc-100 text-zinc-500 h-6 px-[10px] py-1 rounded-xl font-medium">
           {product?.features[1]}
           </span>
-          <span className="text-[11px] bg-zinc-100 text-zinc-500 px-[10px] py-1 rounded-xl font-medium">
+          <span className="text-[11px] bg-zinc-100 text-zinc-500 h-6 px-[10px] py-1 rounded-xl font-medium">
            {product?.features[2]}
           </span>
         </div>

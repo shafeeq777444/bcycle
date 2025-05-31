@@ -25,6 +25,7 @@ export default function CycleLoginPage() {
             } else {
                 await axiosInstance.post("/users", { email, password, cart: [], orders: [] });
                 toast.success("user  registered successfully");
+                setIsLogin(true)
             }
         } else {
             try {
@@ -99,7 +100,7 @@ export default function CycleLoginPage() {
                                     {isLogin ? "Welcome Back" : "Get Started"}
                                 </h2>
                                 <p className="text-gray-600">
-                                    {isLogin ? "Sign in to your Bcycle account" : "Create your Bcycle account"}
+                                    {isLogin ? "Sign in to your bcycle account" : "Create your bcycle account"}
                                 </p>
                             </div>
 
@@ -115,7 +116,7 @@ export default function CycleLoginPage() {
                                         value={email}
                                         onChange={(e) => setEmail(e.target.value)}
                                         className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-orange-400 focus:border-transparent transition-all duration-200 text-gray-900 placeholder-gray-500"
-                                        placeholder="cyclist@Bcycle.com"
+                                        placeholder="cyclist@bcycle.com"
                                         required
                                     />
                                 </div>
