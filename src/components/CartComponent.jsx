@@ -4,7 +4,7 @@ import axiosInstance from "../service/axiosInstance";
 import { useSelector } from "react-redux";
 import PaymentModal from "./PaymentModal";
 // import toast from "react-hot-toast";
-import Razorpay from "../features/razorpay/Razorpay";
+// import Razorpay from "../features/razorpay/Razorpay";
 import { useState } from "react";
 import toast from "react-hot-toast";
 
