@@ -3,6 +3,7 @@ import { useNavigate } from "react-router";
 import axiosInstance from "../service/axiosInstance";
 import { useSelector } from "react-redux";
 import PaymentModal from "./PaymentModal";
+import toast from "react-hot-toast";
 
 const CartPage = ({ cartItems = [], setCartItems }) => {
     const navigate = useNavigate();
@@ -41,7 +42,8 @@ const CartPage = ({ cartItems = [], setCartItems }) => {
         const updated = { ...user.data, orders: [...user.data.orders, neworder], cart: [] };
         console.log(updated, "--updt");
         await axiosInstance.patch(`/users/${userId}`, updated);
-        navigate("/");
+        navigate("/myorders");
+        toast.success("Order Confirmed")
     };
     return (
         <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
@@ -75,7 +77,7 @@ const CartPage = ({ cartItems = [], setCartItems }) => {
                                             {/* Product Image */}
                                             <div className="flex-shrink-0">
                                                 <img
-                                                    src={item.images}
+                                                    src={item.images[0]}
                                                     alt={item.name}
                                                     className="w-24 h-24 object-cover rounded-xl shadow-md"
                                                 />

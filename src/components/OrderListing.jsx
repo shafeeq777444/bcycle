@@ -15,111 +15,7 @@ const OrderListing = ({orders}) => {
     console.log(orders,"--ordrs--")
   const [expandedOrders, setExpandedOrders] = useState({});
 
-  // Sample order data based on your structure
-//   const orders = [
-//     {
-//       "products": [
-//         {
-//           "id": "2",
-//           "category": "Comfort",
-//           "name": "Brooks B17 Leather Saddle",
-//           "description": "A classic leather saddle known for its comfort and durability.",
-//           "features": [
-//             "Leather Material",
-//             "Steel Rails",
-//             "Handcrafted"
-//           ],
-//           "originalPrice": 138,
-//           "offerPrice": 124.2,
-//           "reviews": 1000,
-//           "rating": 4.8,
-//           "images": [
-//             "https://images.unsplash.com/photo-1502744688674-c619d1586c9e?w=400&h=300&fit=crop",
-//             "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=300&fit=crop",
-//             "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
-//           ],
-//           "feedback": [
-//             {
-//               "id": 1,
-//               "name": "Vintage Rider Bob",
-//               "rating": 5,
-//               "date": "20 Nov 2024",
-//               "comment": "After 500 miles, this saddle has molded perfectly to my body. The leather quality is exceptional and it just gets more comfortable with time. Worth every penny!",
-//               "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
-//             },
-//             {
-//               "id": 2,
-//               "name": "Long Distance Lucy",
-//               "rating": 4,
-//               "date": "12 Nov 2024",
-//               "comment": "Best saddle I've ever owned! The handcrafted quality shows in every detail. No more discomfort on long rides. Brooks really knows their craft.",
-//               "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face"
-//             }
-//           ],
-//           "quantity": 1
-//         }
-//       ],
-//       "total": 134.136,
-//       "id": 1748618305111,
-//       "status": "Delivered",
-//       "orderDate": "2024-11-25",
-//       "deliveryDate": "2024-11-28",
-//       "address": {
-//         "address": {
-//           "fullAddress": "kakkanchery,kinfra,neospace",
-//           "city": "kakkanchey",
-//           "state": "kerala",
-//           "pincode": "673634"
-//         }
-//       }
-//     },
-//     {
-//       "products": [
-//         {
-//           "id": "3",
-//           "category": "Performance",
-//           "name": "Shimano Ultegra Groupset",
-//           "description": "Professional-grade cycling components for serious riders.",
-//           "features": [
-//             "11-Speed",
-//             "Carbon Fiber",
-//             "Precision Engineering"
-//           ],
-//           "originalPrice": 899,
-//           "offerPrice": 799,
-//           "reviews": 750,
-//           "rating": 4.9,
-//           "images": [
-//             "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=400&h=300&fit=crop"
-//           ],
-//           "feedback": [
-//             {
-//               "id": 1,
-//               "name": "Pro Cyclist Sam",
-//               "rating": 5,
-//               "date": "15 Nov 2024",
-//               "comment": "Incredible precision and smooth shifting. This groupset transformed my bike's performance completely.",
-//               "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
-//             }
-//           ],
-//           "quantity": 1
-//         }
-//       ],
-//       "total": 863.14,
-//       "id": 1748518305112,
-//       "status": "In Transit",
-//       "orderDate": "2024-11-20",
-//       "deliveryDate": "2024-12-02",
-//       "address": {
-//         "address": {
-//           "fullAddress": "Technopark, Trivandrum",
-//           "city": "Trivandrum",
-//           "state": "Kerala",
-//           "pincode": "695581"
-//         }
-//       }
-//     }
-//   ];
+
 
   const toggleExpanded = (orderId) => {
     setExpandedOrders(prev => ({
@@ -152,7 +48,7 @@ const OrderListing = ({orders}) => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6 bg-gray-50 min-h-screen">
+    <div className="max-w-screen mx-auto p-6 bg-gray-50 min-h-screen">
       {/* Header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">My Orders</h1>
@@ -168,7 +64,7 @@ const OrderListing = ({orders}) => {
               <div className="flex justify-between items-start mb-4">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <Package className="w-5 h-5 text-blue-600" />
+                    <Package className="w-5 h-5 text-black" />
                     <span className="text-lg font-semibold text-gray-900">
                       Order #{order.id.toString().slice(-6)}
                     </span>
@@ -194,7 +90,7 @@ const OrderListing = ({orders}) => {
                   </div>
                   <button
                     onClick={() => toggleExpanded(order.id)}
-                    className="flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"
+                    className="flex items-center gap-1 text-black hover:text-blue-800 text-sm font-medium"
                   >
                     {expandedOrders[order.id] ? 'Hide Details' : 'View Details'}
                     {expandedOrders[order.id] ? 
