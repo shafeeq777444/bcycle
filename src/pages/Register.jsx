@@ -1,16 +1,11 @@
-// import React from 'react'
-// import ProductFilter from '../components/Filter'
-// import Search from '../components/Search'
-// import Razorpay from '../features/razorpay/Razorpay'
+import React from 'react'
 
-// const Register = () => {
-//   return (
-//     <div>
-//       {/* <ProductFilter/> */}
-//       {/* <Search/> */}
-//       <Razorpay/>
-//     </div>
-//   )
-// }
+const Register = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
-// export default Register
+export default Register
