@@ -11,7 +11,7 @@ function Razorpay({ amount = 1100, setPayment }) {
       try {
         const options = {
           key: "rzp_test_DizNfpRBICW9tQ",
-          amount: amount * 83.5 * 100, // in paise
+          amount: Math.round(amount * 100), // in paise
           currency: "INR",
           image: "/bike.svg",
           name: "Bcycle",
